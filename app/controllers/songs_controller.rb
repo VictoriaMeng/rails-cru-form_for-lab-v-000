@@ -9,9 +9,13 @@ class SongsController < ApplicationController
   end
 
   def edit
+    @song = find 
   end
 
   def update
+    @song = find 
+    @song.update(song_params(:name, :genre_id, :artist_id))
+    redirect_to song_path(@song)
   end
 
   def show
