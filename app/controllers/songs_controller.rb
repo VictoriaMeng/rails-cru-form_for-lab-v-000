@@ -12,6 +12,7 @@ class SongsController < ApplicationController
   end
 
   def show
+    @song = find
   end
 
   private
