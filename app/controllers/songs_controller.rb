@@ -22,6 +22,9 @@ class SongsController < ApplicationController
     @song = find
   end
 
+  def index
+  end
+
   private
 
   def find
