@@ -1,0 +1,2 @@
+module Artists:::idHelper
+end
